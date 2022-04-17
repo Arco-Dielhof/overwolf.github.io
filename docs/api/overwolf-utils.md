@@ -587,7 +587,7 @@ For example, if your primary monitor is 1920px wide, and the currently active wi
 
 #### Y note
 
-Y returns the pixel distnace of your currently active monitor from your primary monitor.  
+Y returns the pixel distance of your currently active monitor from your primary monitor.  
 For Example, if your primary monitor and secondary monitor are side by side, Y will return 0, if your displays are one on top of the other and the primary monitor is 1200px tall, Y will return 1200 or -1200 based on their relative positions.
 
 #### Example data: Success
