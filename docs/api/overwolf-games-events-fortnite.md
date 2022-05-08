@@ -96,7 +96,7 @@ Data Example:
 Data Example:
 
 ```json
-{"name":"hit","data":"{"isHeadshot": true}"}
+{"events":[{"name":"hit","data":"{"isHeadshot": true}"}]}
 ```
 
 ## `killed`
@@ -112,7 +112,7 @@ killed      | The name of the killed player. | The local player killed another p
 Data Example:
 
 ```json
-{"name":"killed","data":"itaygl"}
+{"events":[{"name":"killed","data":"itaygl"}]}
 ```
 
 ## `killer`
@@ -128,7 +128,7 @@ killer      | Name of the killer.  | The local player was killed |See [notes](#k
 Data Example:
 
 ```json
-{"name":"killer","data":"itaygl"}
+{"events":[{"name":"killer","data":"itaygl"}]}
 ```
 
 ## `revived`
